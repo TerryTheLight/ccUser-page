@@ -3,7 +3,13 @@
 }
 
 .left-container {
+	text-align: center;
 	border:2px solid red;
+
+	h1 {
+		font-weight: 800;
+		color:#082729;
+	}
 }
 
 .right-container {
