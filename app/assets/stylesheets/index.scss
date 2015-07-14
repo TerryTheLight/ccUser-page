@@ -1,0 +1,71 @@
+.grid-ctn {
+	margin-top: 50px;
+}
+
+
+.left-container {
+	text-align: center;
+	font-family: 'Ruda';
+  color: #082729;
+
+
+	h2 {
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		font-weight: 800;
+		
+	}
+
+	img {
+		margin-top: 20px;
+		display: inline-block;
+		width: 15%;
+	}
+
+	img:nth-child(1), img:nth-child(2) {
+		margin-right: 80px;
+	}
+
+	.introMsg {
+
+		width: 55%;
+		margin:0 auto;
+
+		p {
+			font-size: 1.1em;
+			font-weight: 600;
+			opacity: 0.8;
+			color:grey;
+		}
+	}
+}
+
+.right-container {
+  text-align: center;
+  font-family: ruda;
+  padding-top: 10px;
+  background-color: #eff2f9;
+  height: 450px;
+
+  .activate-form {
+  margin-top: 30px;
+
+}
+
+.btn-activate {
+  color: white;
+  background-color: #f9903e;
+  border-radius: 0;
+  height: 45px;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+
+}
+
+
+}
+
