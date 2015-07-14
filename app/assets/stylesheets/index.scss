@@ -3,7 +3,41 @@
 }
 
 .left-container {
-	border:2px solid red;
+	text-align: center;
+	font-family: 'Ruda';
+
+	h2 {
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		font-weight: 800;
+		color:#082729;
+	}
+
+	img {
+		margin-top: 20px;
+		display: inline-block;
+		width: 15%;
+	}
+
+	img:nth-child(1), img:nth-child(2) {
+		margin-right: 80px;
+	}
+
+	.introMsg {
+
+		width: 55%;
+		margin:0 auto;
+
+		p {
+			font-size: 1.1em;
+			font-weight: 600;
+			opacity: 0.8;
+			color:grey;
+		}
+	}
 }
 
 .right-container {
