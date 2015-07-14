@@ -1,5 +1,5 @@
 .grid-ctn {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .left-container {
@@ -7,5 +7,21 @@
 }
 
 .right-container {
-	border:2px solid black;
+	border:2px solid grey;
+  text-align: center;
+  font-family: ruda;
+  padding-top: 10px;
+  background-color: #eff2f9;
+}
+
+.activate-form {
+  margin-top: 30px;
+
+}
+
+.btn-activate {
+  color: white;
+  background-color: #f9903e;
+  border-radius: 0;
+  height: 45px;
 }
