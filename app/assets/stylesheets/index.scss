@@ -1,10 +1,13 @@
 .grid-ctn {
-	margin-top: 30px;
+	margin-top: 50px;
 }
+
 
 .left-container {
 	text-align: center;
 	font-family: 'Ruda';
+  color: #082729;
+
 
 	h2 {
 		font-weight: 500;
@@ -13,7 +16,7 @@
 
 	h1 {
 		font-weight: 800;
-		color:#082729;
+		
 	}
 
 	img {
@@ -41,14 +44,13 @@
 }
 
 .right-container {
-	border:2px solid grey;
   text-align: center;
   font-family: ruda;
   padding-top: 10px;
   background-color: #eff2f9;
-}
+  height: 450px;
 
-.activate-form {
+  .activate-form {
   margin-top: 30px;
 
 }
@@ -58,4 +60,12 @@
   background-color: #f9903e;
   border-radius: 0;
   height: 45px;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+
 }
+
+
+}
+
