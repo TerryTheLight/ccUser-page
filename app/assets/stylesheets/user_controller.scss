@@ -2,7 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h1 {
-  font-family: ruda-black;
-
+.navbar-lg {
+  height: 80px;
+  background-color: white;
+  border: 1px solid white;
+  margin: 0;
+  border-radius: 0;
 }
+
+.navbar-2 {
+  margin: 0;
+  background-color: #082729;
+  border-radius: 0;
+  border: 1px solid #082729;
+  color: white;
+}
+
+.navbar3 {
+  font-family: ruda;
+  color: white !important;
+}
+
+
