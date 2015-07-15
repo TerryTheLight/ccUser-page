@@ -5,4 +5,6 @@ end
 def forgot
 end
 
+def setup
+end
 end

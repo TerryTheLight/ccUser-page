@@ -6,6 +6,7 @@ Rails.application.routes.draw do
    root 'user#index'
 
    get '/forgot' => 'user#forgot'
+   get '/setup' => 'user#setup'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
