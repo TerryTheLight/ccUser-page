@@ -5,7 +5,12 @@ end
 def forgot
 end
 
+
 def login
+end
+
+
+def setup
 end
 
 end

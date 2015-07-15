@@ -6,8 +6,7 @@
 .left-container {
 	text-align: center;
 	font-family: 'Ruda';
-  color: #082729;
-
+  	color: #082729;
 
 	h2 {
 		font-weight: 500;
@@ -16,7 +15,6 @@
 
 	h1 {
 		font-weight: 800;
-		
 	}
 
 	img {
@@ -61,6 +59,7 @@
 }
 
 .btn-all {
+	text-align: center;
     color: white;
     background-color: #f9903e;
     border-radius: 0;
@@ -68,11 +67,10 @@
   }
 
 .btn-activate {
-    
+    color: white;
+   	background-color: #f9903e;
     position: absolute;
     right: 10px;
     bottom: 15px;
   }
-
-
 
