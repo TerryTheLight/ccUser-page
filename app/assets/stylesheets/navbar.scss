@@ -3,24 +3,52 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .navbar-lg {
-  height: 80px;
   background-color: white;
-  border: 1px solid white;
   margin: 0;
   border-radius: 0;
 }
-
 .navbar-2 {
   margin: 0;
   background-color: #082729;
   border-radius: 0;
-  border: 1px solid #082729;
-  color: white;
+  
+  .navbar-3 {
+    color: white !important;
+  }
+
 }
 
-.navbar3 {
-  font-family: ruda;
-  color: white !important;
+.container1 {
+    float: left;
+    width: 250px;
+    height: 80px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+
+.container2 {
+    float: right;
+    width: 190px;
+    height: 80px;
+    padding: 10px;
+
+    .btn-dropdown {
+      border: none;
+      color: grey;
+    }
+
+    .btn-dropdown:hover, .btn-dropdown:active, .btn-dropdown:visited, .btn-dropdown:focus,{
+      background-color: white;
+      text-shadow: none;
+      box-shadow: none;
+      background: -webkit-linear-gradient(white, white); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(white, white); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(white, white); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(white, white); /* Standard syntax */
+    }
+
+
 }
 
 
