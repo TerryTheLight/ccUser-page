@@ -50,43 +50,29 @@
   background-color: #eff2f9;
   height: 450px;
 
-  .activate-form {
+  .ca-form {
     margin-top: 30px;
   }
+  
+  .grey-a {
+  color: grey;
+  }
 
-  .btn-activate {
+}
+
+.btn-all {
     color: white;
     background-color: #f9903e;
     border-radius: 0;
     height: 45px;
+  }
+
+.btn-activate {
+    
     position: absolute;
     right: 10px;
     bottom: 15px;
-
   }
-}
 
-.button-group {
-  width: 100%;
-  text-align: right;
-}
 
-.btn-login {
-  color: white;
-  background-color: #f9903e;
-  border-radius: 0;
-  height: 45px;
-  padding: 5px 50px;
-}
-
-.grey-a {
-  color: grey;
-}
-
-.remember-me {
-  position: absolute;
-  left: 10px;
-  bottom: 15px;
-  
-}
 
