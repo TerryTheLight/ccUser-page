@@ -1,7 +1,6 @@
 // Place all the styles related to the user_controller controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .navbar-lg {
   background-color: white;
   margin: 0;
@@ -12,6 +11,7 @@
   margin: 0;
   background-color: #082729;
   border-radius: 0;
+  border:2px solid #082729;
   
   .navbar-3 {
     color: white !important;
@@ -21,23 +21,32 @@
 
 .container1 {
     float: left;
-    width: 250px;
+    width:15%;
     height: 80px;
     padding: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
 .container2 {
     float: right;
-    width: 190px;
+    width: 370px;
     height: 80px;
     padding: 10px;
+    position: relative;
 
     .btn-dropdown {
       border: none;
       color: grey;
+      float: right;
+      margin-right: 25px;
+      margin-top: 15px;
     }
+
+    img {
+      float: right;
+    }
+
 
     .btn-dropdown:hover, .btn-dropdown:active, .btn-dropdown:visited, .btn-dropdown:focus,{
       background-color: white;
@@ -52,4 +61,61 @@
 
 }
 
+.dd-menu {
+  margin-top: 10px;
+  position: absolute;
+  left:0;
+  font-size: 1.1em;
+  font-family: "Ruda";
+  width: 75%;
+
+  img {
+    width: 20%;
+    height: 30px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+
+  li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    a{
+      padding-bottom:15px;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+  }  
+}
+
+.dd-logout {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.dropdown-menu::before {
+  position: absolute;
+  top: -7px;
+  right: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #CCC;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu::after {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  border-left: 6px solid transparent;
+  content: '';
+}
 
