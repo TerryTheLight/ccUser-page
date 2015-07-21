@@ -15,3 +15,9 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){ 
+  var height = $(".col4").height();
+  $(".col2").css("height", height);
+
+});

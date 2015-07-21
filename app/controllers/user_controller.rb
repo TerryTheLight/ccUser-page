@@ -13,4 +13,7 @@ end
 def setup
 end
 
+def profile
+end
+
 end
